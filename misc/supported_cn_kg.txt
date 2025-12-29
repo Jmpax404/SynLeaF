@@ -1,0 +1,60 @@
+adrenal gland cancer
+appendix cancer
+bile duct cancer
+bone cancer
+brain cancer
+breast cancer
+cervical cancer
+colon cancer
+connective tissue cancer
+duodenum cancer
+endocrinegland cancer
+esophageal cancer
+fallopian tube cancer
+gallbladder cancer
+gastrointestinal system cancer
+germ cell cancer
+head and neck cancer
+hematologic cancer
+ileum cancer
+intestinal cancer
+jejunal cancer
+kidney cancer
+largeintestine cancer
+larynx cancer
+liver cancer
+lung cancer
+lymphatic system cancer
+malignant glioma
+malignant mesothelioma
+mediastinal cancer
+melanoma
+meningioma
+middle ear cancer
+muscle cancer
+nasal cavity cancer
+ocular cancer
+ovarian cancer
+pancreatic cancer
+penile cancer
+peripheral nervous system neoplasm
+peritoneum cancer
+pharynx cancer
+prostate cancer
+rectum cancer
+retroperitoneal cancer
+salivary gland cancer
+sarcoma
+skin cancer
+spinal cancer
+stomach cancer
+testicular cancer
+thymus cancer
+thyroid cancer
+tracheal cancer
+ureter cancer
+urinary bladder cancer
+uterine cancer
+vaginal cancer
+vascular cancer
+vulva cancer
