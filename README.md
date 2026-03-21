@@ -5,18 +5,17 @@
 
 ## Abstract
 
-Accurate prediction of synthetic lethality (SL) is important for guiding the development of cancer drugs and therapies. SL prediction faces significant challenges in the effective fusion of heterogeneous multi-source data.
+Accurate prediction of synthetic lethality (SL) is important for guiding the development of cancer drugs and therapies. SL prediction faces significant challenges in effectively fusing heterogeneous multi-source data.
 Existing multimodal methods often suffer from "modality laziness" due to disparate convergence speeds, 
-which hinders the exploitation of complementary information. This is also one reason why most existing SL prediction models cannot perform well on both pan-cancer and single-cancer SL pair prediction. In this study, we propose SynLeaF, a dual-stage multimodal fusion framework for SL prediction across pan- and single-cancer contexts. 
+which hinders the exploitation of complementary information and causes most SL prediction models to perform poorly for both pan-cancer and single-cancer SL pair predictions. In this study, we propose SynLeaF, a dual-stage multimodal fusion framework for SL prediction in pan-cancer and single-cancer contexts. 
 The framework employs a VAE-based cross-encoder with a Product of Experts mechanism to fuse four omics data types 
 (gene expression, mutation, methylation, and CNV), 
-while simultaneously utilizing a relational graph convolutional network to capture structured gene representations from biomedical knowledge graphs. 
-To mitigate modality laziness, SynLeaF introduces a dual-stage training mechanism employing feature-level knowledge distillation 
-with adaptive Uni-modal Teacher and Ensemble strategies. 
+simultaneously utilizing a relational graph convolutional network to capture structured gene representations from biomedical knowledge graphs. 
+To mitigate modality laziness, SynLeaF introduces a dual-stage training mechanism that employs a feature-level knowledge distillation. 
 In extensive experiments across eight specific cancer types and a pan-cancer dataset, 
-SynLeaF achieves superior performance in 17 out of 19 scenarios.
+SynLeaF achieved superior performance in 17 of the 19 scenarios.
 Ablation studies and gradient analyses further validate the critical contributions 
-of the proposed fusion and distillation mechanisms to model robustness and generalization.
+of the proposed fusion and distillation mechanisms for model robustness and generalization.
 To facilitate community use, a web server is available at [https://synleaf.bioinformatics-lilab.cn](https://synleaf.bioinformatics-lilab.cn).
 
 ## Installation
