@@ -206,3 +206,19 @@ Use `scheduler.py` for multi-card parallel scheduling. Please configure the ``si
     ```bash
     python analysis.py
     ```
+
+## Cite Us
+
+If you find **SynLeaF** useful in your research, please cite:
+
+```bibtex
+@misc{SynLeaF2026,
+  title        = {SynLeaF: A Dual-Stage Multimodal Fusion Framework for Synthetic Lethality Prediction Across Pan- and Single-Cancer Contexts},
+  author       = {Zheming Xing and Siyuan Zhou and Ruinan Wang and Rui Han and Shiming Zhang and Shiqu Chen and Yurui Huang and Jiahao Ma and Yifan Chen and Xuan Wang and Yadong Wang and Junyi Li},
+  year         = {2026},
+  eprint       = {2603.22369},
+  archivePrefix= {arXiv},
+  primaryClass = {q-bio.GN},
+  url          = {https://arxiv.org/abs/2603.22369}
+}
+```
